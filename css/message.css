@@ -1,0 +1,520 @@
+﻿a:hover {
+
+    text-decoration:none;
+}
+
+body {
+    
+    margin:0 auto 0 auto;
+    padding:0;
+    width:100%;
+    background-image:url("../user/bg.jpg");
+    background-repeat:no-repeat;
+    background-color:#ccc;
+}
+a {
+    cursor:pointer;
+}
+
+h1 h2 h3 h4 h5 h6 ul li p hr{
+    margin:0 0 0 0;
+    padding:0 0 0 0;
+}
+    #line {
+	position: fixed;
+	top: 0;
+	background-color: #f24343;
+	height: 2px;
+	width:1px;
+	left: 623px;
+    z-index:10;
+}
+#line1 {
+	position: fixed;
+	top: 0;
+	background-color: #f24343;
+	height: 2px;
+	width:1px;
+	right: 623px;
+    z-index:10;
+}
+#up {
+	clear: both;
+	position: fixed;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	line-height: 40px;
+	background-color: #009933;
+	font-weight: bold;
+	color: #FFFFFF;
+	right: 5%;
+	bottom: 11%;
+	cursor: pointer;
+	border: 2px solid #FFFFFF;
+}
+#down {
+	clear: both;
+	position: fixed;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	line-height: 40px;
+	background-color: #009933;
+	font-weight: bold;
+	color: #FFFFFF;
+	right: 5%;
+	bottom: 5%;
+	cursor: pointer;
+	border: 2px solid #FFFFFF;
+}
+#top .write{
+    
+    position:absolute;
+    top:10px;
+    right:20px;
+
+  
+}
+#top .write .span{
+    
+   width:40px;
+   height:40px;
+
+
+  
+}
+#top{
+    width: 100%;
+    height: 52px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index:3;
+   
+   
+}
+    #top .top-middle {
+       
+        left:130px;
+        width:1000px;
+        height:52px;
+        
+        margin:0 auto 0 auto;
+
+    }
+    #top .logo {
+        float:left;
+        width:150px;
+        height:50px;
+
+        background-image:url("../images/logobg.png");
+
+    }
+        #top .logo img {
+            
+            margin-top:6px;
+            margin-left:8px;
+        }
+        #top .logo a {
+
+            width:150px;
+            height:50px;
+            display:block;
+        }
+
+
+#search span i {
+   
+}
+#search {
+    width:280px;
+    margin-top:10px;
+    float:left;
+}
+#top ul {
+
+    float:left;
+    margin-top:8px;
+    margin-left:40px;
+}
+#top li {
+    margin-left:2px;
+    margin-right:2px;
+}
+#top ul a {
+    font-size:14px;
+    color:#535252;
+    text-decoration:none;
+    
+}
+.on{
+    background-color:rgba(204, 204, 204, 0.25);
+
+}
+#top ul button {
+    margin-top:2px;
+}
+#top ul button:hover {
+     background-color:rgba(204, 204, 204, 0.25);
+}
+#top ul ul {
+    width:80px;
+}
+
+#logoimg {
+    width: 38px;
+    height: 38px;
+    
+    
+  
+    
+    -webkit-transition: -webkit-transform 4s ease-out;
+    -moz-transition: -moz-transform 4s ease-out;
+    -o-transition: -o-transform 4s ease-out;
+    -ms-transition: -ms-transform 4s ease-out;
+}
+#logoimg:hover {
+    -webkit-transform: rotateZ(3600deg);
+    -moz-transform: rotateZ(3600deg);
+    -o-transform: rotateZ(3600deg);
+    -ms-transform: rotateZ(3600deg);
+    transform: rotateZ(3600deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+#footer {
+clear:both;
+width:100%;
+
+
+
+}
+    #footer .up {
+        height:160px;
+        background-color:white;
+    }
+    #footer .down {
+        padding-top:20px;
+        height:140px;
+        background-color:rgba(83, 82, 82, 0.87);
+    }
+#footer .up .l1 {
+    width:200px;
+    height:160px;
+    float:left;
+   
+    margin-left:200px;
+}
+#footer .l2 {
+    width:260px;
+    height:160px;
+    float:left;
+ 
+    
+}
+    #footer .l2 span {
+        margin-top:10px;
+       display:flex;
+    }
+#footer .l3 {
+   width:200px;
+    height:160px;
+    float:left;
+   
+}
+#footer .l4 {
+    
+    width:200px;
+    height:160px;
+    float:left;
+   
+}
+    #footer .up ul {
+        margin:0 0 0 0;
+        padding:0 0 0 0;
+        list-style:none;
+    }
+     #footer .up ul li{
+         margin:6px 0 0 0;
+         width:80px;
+        float:left;
+    }
+#footer a {
+    color:rgba(83, 82, 82, 0.81);
+}
+#footer a:hover {
+    color:#ef841d;
+    text-decoration:none;
+}
+    #footer .up h3 img {
+        
+        width:80px;
+        height:80px;
+        display:block;
+        margin:10px 0 0 0;
+    }
+    #footer .up h4 {
+        font-weight:bolder;
+        font-size:16px;
+        margin:10px 0 10px 0;
+        padding:0 0 0 0;
+        
+    }
+    #footer .up h4 a{
+        color:black;
+    }
+
+    #footer .down a {
+        color:white;
+    }
+     #footer .down a:hover {
+        color:#ef841d;
+    }
+    #footer .down ul {
+        text-align:center;
+        margin:0 0 0 0;
+        padding:0 0 0 0;
+        list-style:none;
+    }
+     #footer .down ul li{
+        margin:7px 8px 7px 8px;
+         float:left;
+    }
+
+
+#music {
+  
+   
+
+}
+#music .ctl{
+    
+    width:36px;
+    height:120px;
+    background-color:white;
+    border-radius:6px;
+    position:fixed;
+    top:450px;
+    left:20px;
+    opacity:0.3;
+
+}
+    #music .ctl:hover {
+        opacity:1;
+    }
+
+    #music .ctl span {
+        
+        cursor:pointer;
+        color:#535252;
+       padding:0 0 0 0;
+       margin:3px;
+        font-size:30px;
+        width:30px;
+        height:30px;
+    }
+        #music .ctl span:hover {
+        color:#f24343;
+        }
+
+    #music .ctl hr {
+        width:80%;
+        border:1px solid rgba(83, 82, 82, 0.78);
+        margin:0 auto 0 auto;
+        padding:0 0 0 0;
+        
+    }
+
+
+
+
+
+
+
+
+#body {
+    width:100%;
+    margin:52px auto 0 auto;
+    background-color:rgba(255, 255, 255, 0.25);
+}
+    #body .left {
+       
+        position:fixed;
+        top:52px;
+        left:140px;
+        float:left;
+        width:150px;
+       
+
+    }
+        #body .left button {
+            width:100%;
+            height:40px;
+            margin:10px 0 10px 0;
+        }
+      
+     #body .mid {
+         margin-left:300px;
+         margin-right:10px;
+         float:left;
+        width:600px;
+       
+        
+    }
+      #body .right{
+      
+   float:left;
+  width:200px;
+  padding-bottom:10px;
+
+
+
+    }
+        #body .right .input-group {
+
+            margin-top:10px;
+            margin-bottom:10px;
+        }
+         #body .right header {
+             font-weight:bold;
+         border-radius:6px 6px 0 0;
+        width:100%;
+        height:30px;
+        background-color:white;
+        line-height:30px;
+        text-align:center;
+        border-bottom:2px solid #f24343;
+            
+        }
+        #body .right ul {
+            margin: 0 0 0 0;
+            padding: 0;
+         
+           clear:both;
+            overflow-y: auto;
+            width: 100%;
+            background-color: #FFFFFF;
+            height: 446px;
+            list-style: none;
+           
+        }
+        #body .right li {
+        
+            line-height:50px;
+            height:50px;
+            
+            cursor:pointer;
+        }
+            #body .right li:hover {
+                background-color:rgba(204, 204, 204, 0.45);
+            }
+
+            #body .right li img {
+                margin:0 10px 0 10px;
+             width:40px;
+             height:40px;
+             border-radius:20px;
+
+            }
+
+    #body .mid .page {
+        margin:10px 0 10px 0;
+
+    }
+
+#message {
+    margin-top:10px;
+    background-color:white;
+    width:100%;
+    height:520px;
+    border-radius:6px;
+    padding-bottom:30px;
+  
+}
+.chat {
+    width:100%;
+    height:80px;
+    position:relative;
+    cursor:pointer;
+    border-bottom:1px solid #ccc;
+}
+    .chat:hover {
+        background-color:rgba(204, 204, 204, 0.2);
+    }
+    .chat .face {
+        margin:10px 20px 0 20px;
+        
+        width:60px;
+        height:60px;
+        border-radius:30px;
+        float:left;
+    }
+
+ 
+
+   .chat label {
+        margin-top:10px;
+    }
+     .chat time {
+        margin-top:10px;
+        margin-right:40px;
+        float:right;
+    }
+     .chat .list {
+      position:absolute;
+      top:10px;
+      right:10px;
+    }
+      .chat .list ul{
+     min-width:100px;
+     margin:0;
+     padding:0;
+    }
+     .chat .list li{
+           font-size:12px;
+           line-height:30px;
+           height:30px;
+     text-align:center;
+    }
+       .chat .list li:hover {
+            color:#ef841d;
+            background-color:rgba(204, 204, 204, 0.25);
+        }
+
+        .chat .list span:hover{
+         color:#f24343;
+        }
+        .chat p{
+            line-height:40px;
+            font-size:12px;
+            color:rgba(83, 82, 82, 0.81);
+        }
+         
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+   
+ 

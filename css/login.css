@@ -1,0 +1,275 @@
+﻿body {
+    
+}
+#bg {
+   width:100%;
+   height:675px;
+   background-image:url(../images/login_body_bg.png);
+   background-repeat:no-repeat;
+   background-size:cover;
+   padding-top:150px;
+  
+}
+.CC-blog {
+   position:fixed;
+   top:9%;
+   left:20%;
+}
+.content {
+    
+    width:900px;
+    height:300px;
+    background-color:rgba(0, 0, 0, 0.70);
+    border-radius:10px;
+    margin-left:auto;
+    margin-right:auto; 
+   
+}
+#carousel-example-generic {
+    
+    width:620px;
+    float:left;
+}
+
+
+@keyframes playing {
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+.logo img {
+    cursor:pointer;
+    position: fixed;
+    display: block;
+    top: 55px;
+    left: 195px;
+    width: 50px;
+    height: 50px;
+    -webkit-animation: playing 5s infinite linear;
+    animation-play-state:running;
+  }
+
+    .logo img:hover {
+        animation-play-state:paused;
+
+    }
+
+.login {
+    
+    float:right;
+    width:275px;
+    height:300px;
+
+}
+.login .select{
+margin-bottom:20px;
+
+}
+    .login .select a{
+       
+        font-size:16px;
+        color:#ffffff;
+        font-weight:bold;
+
+    }
+        .login .select a:hover {
+            background-color:rgba(204, 204, 204, 0.49);
+        }
+
+.tab-content .input-group{
+   
+    width:90%;
+    height:30px;
+    margin:10px auto 10px auto;
+    
+}
+.tab-content .input-group input{
+    background-color:rgb(255, 255, 255);
+    font-size:12px;
+   border-radius:0 6px 6px 0;
+   
+}
+.tab-content .input-group span{
+   font-size:16px;
+    background-color:rgb(255, 255, 255);
+    border-radius:6px 0 0 6px;
+}
+#home .message {
+    position:relative;
+    line-height:35px;
+    width:90%;
+    margin:0 auto 0 auto;
+ height:35px;
+text-indent:20px;
+ padding:0 0 0 0;
+}
+#mail .message {
+    position:relative;
+    line-height:35px;
+    width:90%;
+    margin:0 auto 0 auto;
+ height:35px;
+text-indent:20px;
+ padding:0 0 0 0;
+}
+    #home .message button {
+        
+        position:absolute;
+        top:20%;
+        right:5%;
+    }
+    #mail .message button {
+        
+        position:absolute;
+        top:20%;
+        right:5%;
+    }
+
+#home .form {
+
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+#mail .form {
+
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+    #home .form label a {
+        font-size:13px;
+        float:right;
+        font-weight:500;
+      
+        color:rgba(204, 204, 204, 0.99);
+    }
+    #mail .form label a {
+        font-size:13px;
+        float:right;
+        font-weight:500;
+      
+        color:rgba(204, 204, 204, 0.99);
+    }
+     #home .form label a:hover {
+
+        color:#ff6a00;
+        text-decoration:none;
+    }
+     #mail .form label a:hover {
+
+        color:#ff6a00;
+        text-decoration:none;
+    }
+
+
+    #home .form button {
+        margin-top:5px;
+        margin-bottom:10px;
+        font-weight:bold;
+        letter-spacing:10px;
+        height:40px;
+        width:100%;
+    }
+     #mail .form button {
+        margin-top:5px;
+        margin-bottom:10px;
+        font-weight:bold;
+        letter-spacing:10px;
+        height:40px;
+        width:100%;
+    }
+
+    #home .form p a {
+        font-size:12px;
+        
+        font-weight:500;
+      
+        color:rgb(255, 106, 0);
+    }
+    #mail .form p a {
+        font-size:12px;
+        
+        font-weight:500;
+      
+        color:rgb(255, 106, 0);
+    }
+     #home .form p a:hover {
+
+        color:#ffffff;
+        text-decoration:none;
+    }
+     #mail .form p a:hover {
+
+        color:#ffffff;
+        text-decoration:none;
+    }
+.banquan {
+    font-size:18px;
+    color:white;
+    position:fixed;
+    bottom:2%;
+    left:35%;
+    margin:0 auto 0 auto;
+}
+#code img{
+
+    width:160px;
+    height:160px;
+    margin-left:55px;
+    margin-top:10px;
+   padding:0 0 0 0;
+   
+
+}
+#code p {
+
+   margin-left:14px;
+  padding-top:21px;
+}
+ #code p a {
+     
+        font-size:12px;
+        
+        font-weight:500;
+      
+        color:rgb(255, 106, 0);
+    }
+     #code p a:hover {
+
+        color:#ffffff;
+        text-decoration:none;
+    }
+
+
+
+     /*更改jQuery UI主题的对话框header的背景*/
+.ui-widget-header {
+	background:url(../img/ui_header_bg.png);
+}
+/*按钮正常状态的背景*/
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	background:url(../img/ui_header_bg.png);
+}
+/*按钮点击状态的背景*/
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+	background:url(../img/ui_white.png);
+}
+/*工具提示的文本颜色*/
+.ui-tooltip {
+    cursor:pointer;
+	color:#666;
+}
+/*邮箱自动补全的悬停背景色*/
+.ui-menu-item a.ui-state-focus {
+     cursor:pointer;
+	background:url(../img/ui_header_bg.png);
+}
+.ui-menu-item a {
+     cursor:pointer;
+	color:#666;
+}
+
+
+   
